@@ -21,7 +21,7 @@ type ExchangeRate struct {
 var correctPass bool = false
 
 func main() {
-	bot, err := tgbotapi.NewBotAPI("6968930069:AAEQI7yRhsUAl6ENY1bJ_ZMupSLN9cTORkI")
+	bot, err := tgbotapi.NewBotAPI("yourTGBOTTOKEN")
 	if err != nil {
 		log.Panic(err)
 	}
